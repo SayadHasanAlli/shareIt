@@ -12,7 +12,7 @@ connectDB();//importing the database
 
 //cors
 const corsOptions={
-    origin: process.env.ALLOWED_CLIENTS.split(','), // Specify a specific origin
+    origin: "https://shareitfileshare.netlify.app", // Specify a specific origin
     methods: 'GET, POST',           // Specify allowed HTTP methods
     allowedHeaders: 'Content-Type'
 }
